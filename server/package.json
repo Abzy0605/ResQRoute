@@ -7,7 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "dev": "nodemon server.js",
+    "diagnose:db": "node scripts/diagnoseDatabaseConnection.js",
     "seed:demo:validate": "node scripts/seedProductionDemoData.js --validate",
+    "seed:demo:sql": "node scripts/seedProductionDemoData.js --sql",
     "seed:demo:dry-run": "node scripts/seedProductionDemoData.js --dry-run",
     "seed:demo:apply": "node scripts/seedProductionDemoData.js --apply"
   },

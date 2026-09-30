@@ -21,3 +21,6 @@ logs/
 npm-debug.log*
 yarn-debug.log*
 pnpm-debug.log*
+
+# Generated, uncommitted database seed exports
+server/scripts/generated/
